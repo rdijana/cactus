@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Rokkitt|Solway&display=swap);
+body{
+    font-family:Rokkitt,serif;
+}
+#slikaPoc{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/pocetna.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+#meni{
+    position:relative;
+    margin-left: 450px;
+}
+#futer{
+    display:flex;
+    padding:0px;
+    justify-content:center;
+    list-style-type:none;
+}
+#futer li a {
+    text-decoration:none;
+    color:rgba(216, 216, 216, 0.5);
+    display: inline-block;
+    font-size: 18px;
+}
+.okvir{
+    border:1px solid rgba(216, 216, 216, 0.5);
+}
+.red{
+    color:red;
+}
+#linkBz
+{
+    list-style-type:none;
+}
+#linkBz li a {
+    text-decoration:none;
+    color:#252525;
+}
